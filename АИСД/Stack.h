@@ -53,4 +53,8 @@ public:
 			throw;
 		return ptr[top--];
 	}
+	T GetTop()
+	{
+		return ptr[top];
+	}
 };
